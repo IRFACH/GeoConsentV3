@@ -1,5 +1,6 @@
 # 🌍 GeoConsentV2 (still under Development)
-Added Live Traking 
+Added Live Traking
++ Dashboard For Live traking (minor Bug )
 
 A **consent-based location verification tool** designed for Termux users.  
 GeoConsent allows you to generate a secure link that lets another user **voluntarily share their GPS location** via browser permission.
@@ -47,7 +48,7 @@ GeoConsent allows you to generate a secure link that lets another user **volunta
 ```bash
 pkg update -y
 pkg install git python cloudflared -y
-pip install flask
+pip install flask flask-socketio eventlet
 cd geoconsent 
 chmod +x start.sh
 ./start.sh
