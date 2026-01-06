@@ -1,5 +1,5 @@
 # 🌍 GeoConsentV2 (still under Development)
-Added Live Traking
++ Added Live Map Traking
 + Dashboard For Live traking (minor Bug )
 
 A **consent-based location verification tool** designed for Termux users.  
