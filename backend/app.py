@@ -14,6 +14,7 @@ def location():
     lat = data.get("lat")
     lon = data.get("lon")
     acc = data.get("accuracy")
+    speed = data.get("speed", 0)
     time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     map_link = f"https://maps.google.com/?q={lat},{lon}"
