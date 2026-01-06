@@ -7,7 +7,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 
 @app.route("/")
 def index():
-    return send_from_directory(app.static_folder, "dashboard.html")
+    return send_from_directory(app.static_folder, "share.html")
 
 @app.route("/location", methods=["POST"])
 def location():
